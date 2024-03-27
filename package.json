@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "cross-env JEST_TEST=false jest",
+    "test:ci": "npm run test -- --testResultsProcessor=\"jest-junit\" --watchAll=false --ci --coverage --testMatch **/tests/**/*.test.js cross-env JEST_TEST=false"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "istanbul": "^0.4.5",
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
+  }
+}

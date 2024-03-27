@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="6" failures="0" errors="0" time="1.425">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-03-27T23:23:51" time="1.093" tests="6">
+    <testcase classname=" Test 1: par2=value1, par3=47" name=" Test 1: par2=value1, par3=47" time="0.003">
+    </testcase>
+    <testcase classname=" Test 2: par2=value2, par3=100" name=" Test 2: par2=value2, par3=100" time="0.001">
+    </testcase>
+    <testcase classname=" Test 3: par2=value3, par3=68" name=" Test 3: par2=value3, par3=68" time="0.001">
+    </testcase>
+    <testcase classname=" Test 4: par2=value4, par3=90" name=" Test 4: par2=value4, par3=90" time="0.001">
+    </testcase>
+    <testcase classname=" Test with invalid arguments" name=" Test with invalid arguments" time="0.001">
+    </testcase>
+    <testcase classname=" Test execution time" name=" Test execution time" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
